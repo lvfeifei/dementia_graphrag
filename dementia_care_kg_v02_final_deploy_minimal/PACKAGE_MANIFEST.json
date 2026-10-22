@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-06-25T00:58:10",
+  "package_name": "dementia_care_kg_v02_final_deploy_minimal",
+  "version": "v02_final",
+  "purpose": "Minimal deployment package for v02_final knowledge graph.",
+  "expected_graph": {
+    "node_count": 1087,
+    "relationship_count": 2008,
+    "ProblemAdvice": 396,
+    "ActivityAdvice": 52,
+    "EnvironmentAdvice": 45
+  },
+  "files": {
+    "data": "data/v02_final_flat_for_import",
+    "asset_manifest": "data/v02_final_asset_manifest.json",
+    "import_script": "scripts/01_import_v02_final_to_neo4j.py",
+    "validate_script": "scripts/02_validate_v02_final_kg.py",
+    "run_script": "run_import_and_validate.sh",
+    "logs": "outputs/logs"
+  },
+  "safety": {
+    "contains_password": false,
+    "contains_neo4j_binary": false,
+    "contains_graphrag_code": false,
+    "contains_md": false,
+    "import_requires_confirm_reset": true
+  },
+  "status": "READY"
+}

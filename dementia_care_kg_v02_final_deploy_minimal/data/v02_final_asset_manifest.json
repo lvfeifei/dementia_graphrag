@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-06-24T14:11:55",
+  "version": "v02_final",
+  "description": "Final packaged assets for v02_final dementia care knowledge graph. No MD files generated in this package step.",
+  "safety": {
+    "remote_server_connection": false,
+    "neo4j_write": false,
+    "local_neo4j_read_only_export": true,
+    "md_generation": false
+  },
+  "expected_graph": {
+    "node_count": 1087,
+    "relationship_count": 2008,
+    "ProblemAdvice": 396,
+    "ActivityAdvice": 52,
+    "EnvironmentAdvice": 45
+  },
+  "neo4j_export": {
+    "node_count": 1087,
+    "relationship_count": 2008,
+    "labels": [
+      "ActivityAdvice",
+      "ActivityCombinationNode",
+      "Environment",
+      "EnvironmentAdvice",
+      "EnvironmentCombinationNode",
+      "Feature",
+      "Problem",
+      "ProblemAdvice",
+      "ProblemCombinationNode",
+      "Problem_To_ActivityCombinationNode",
+      "Problem_To_EnvironmentCombinationNode"
+    ],
+    "relationship_types": [
+      "comb_to_activity_advice",
+      "comb_to_environment_advice",
+      "comb_to_problem_advice",
+      "comb_to_problem_to_activity_advice",
+      "part_of",
+      "single_to_activity_advice",
+      "single_to_environment_advice",
+      "single_to_problem_advice",
+      "single_to_problem_to_activity_advice",
+      "single_to_problem_to_environment_advice"
+    ],
+    "label_counts": {
+      "ActivityAdvice": 52,
+      "ActivityCombinationNode": 107,
+      "Environment": 44,
+      "EnvironmentAdvice": 45,
+      "EnvironmentCombinationNode": 95,
+      "Feature": 17,
+      "Problem": 58,
+      "ProblemAdvice": 396,
+      "ProblemCombinationNode": 238,
+      "Problem_To_ActivityCombinationNode": 35,
+      "Problem_To_EnvironmentCombinationNode": 0
+    },
+    "relationship_counts": {
+      "comb_to_activity_advice": 107,
+      "comb_to_environment_advice": 95,
+      "comb_to_problem_advice": 238,
+      "comb_to_problem_to_activity_advice": 35,
+      "part_of": 1107,
+      "single_to_activity_advice": 22,
+      "single_to_environment_advice": 5,
+      "single_to_problem_advice": 313,
+      "single_to_problem_to_activity_advice": 42,
+      "single_to_problem_to_environment_advice": 44
+    },
+    "nodes_all_jsonl": "final_kg_assets/v02_final/01_neo4j_backup/local_v02_final_neo4j_export_20260624_141155/nodes_all.jsonl",
+    "relationships_all_jsonl": "final_kg_assets/v02_final/01_neo4j_backup/local_v02_final_neo4j_export_20260624_141155/relationships_all.jsonl",
+    "counts_csv": "final_kg_assets/v02_final/01_neo4j_backup/local_v02_final_neo4j_export_20260624_141155/neo4j_counts_export.csv"
+  },
+  "paths": {
+    "final_dir": "final_kg_assets/v02_final",
+    "neo4j_export_dir": "final_kg_assets/v02_final/01_neo4j_backup/local_v02_final_neo4j_export_20260624_141155",
+    "rebuild_source_and_import_code": "final_kg_assets/v02_final/02_rebuild_source_and_import_code",
+    "expert_review_table": "final_kg_assets/v02_final/03_expert_review_table",
+    "final_validation": "final_kg_assets/v02_final/04_final_validation",
+    "expert_return_update_workspace": "final_kg_assets/v02_final/05_expert_return_update_workspace"
+  },
+  "copied_tools": [
+    "step35_finalize_v02_expert_review_table.py",
+    "step36_make_v02_final_source.py",
+    "step37_audit_v02_final_source.py",
+    "step38_replicate_v02_final_kg_local.py",
+    "step39_deep_validate_v02_final_kg.py",
+    "step40_compare_v02_final_local_vs_server_v01_api.py",
+    "step41_package_v02_final_assets.py",
+    "step20_replicate_v01_kg_local.py"
+  ],
+  "copied_review_tables": [
+    ".~v02_final_update_for_expert_review_FINAL.xlsx",
+    "step25_manual69_cleaned.xlsx",
+    "v02_final_update_for_expert_review.xlsx",
+    "v02_final_update_for_expert_review_FINAL.xlsx",
+    "v02_manual_review_table_step25.xlsx",
+    "v02_update_master_for_import_and_expert_review.xlsx"
+  ],
+  "copied_validation_logs": [
+    "step35_finalize_v02_expert_review_table_summary.json",
+    "step36_v02_final_source_summary.json",
+    "step37_v02_final_source_audit.json",
+    "step38_local_v02_final_kg_validation.json",
+    "step39_v02_final_kg_deep_validation.json",
+    "step40_v02_final_local_vs_server_v01_append_check.json",
+    "step40_v02_final_local_vs_server_v01_append_check.csv"
+  ],
+  "status": "PASS"
+}
