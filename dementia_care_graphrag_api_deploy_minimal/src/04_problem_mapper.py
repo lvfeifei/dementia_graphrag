@@ -19,6 +19,7 @@ It only maps the user's question to Problem IDs.
 
 from __future__ import annotations
 
+
 import argparse
 import importlib.util
 import json
@@ -32,6 +33,8 @@ from typing import Any, Dict, List, Optional, Tuple
 import numpy as np
 from dotenv import load_dotenv
 
+
+os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SRC_DIR = PROJECT_ROOT / "src"
@@ -190,6 +193,7 @@ def load_embedding_model(model_name: str):
         ) from e
 
     return SentenceTransformer(model_name)
+    #return SentenceTransformer('/root/models--BAAI--bge-m3')
 
 
 def query_instruction(query: str) -> str:
@@ -278,6 +282,7 @@ class LLMProblemMapper:
         top_k = min(top_k, len(self._problem_meta))
 
         q_emb = embed_query(self._embedding_model, question)
+        print("q_emb:",type( q_emb))
 
         scores, indices = self._faiss_index.search(q_emb, top_k)
 

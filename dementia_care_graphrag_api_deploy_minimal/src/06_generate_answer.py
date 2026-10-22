@@ -338,6 +338,35 @@ def build_user_prompt(context: Dict[str, Any]) -> str:
 可引用的证据来源：
 {evidence_source_text}
 
+下面是可用图片素材库，请记住每张图片的主题和对应的url，写内容时自动挑选匹配图片，插入在合适位置。
+素材库：
+- 助力筷：https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/assisted_chopsticks.jpg
+- 居家环境危险因素1: https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/avoid_environment1.jpg
+- 居家环境危险因素2: https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/avoid_environment2.jpg
+- 居家环境危险因素3: https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/avoid_obstacle.jpg
+- 饼干: https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/biscuit.jpg
+- 水果: https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/fruit.jpg
+- 摄像头: https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/camera.jpg
+- 清理冰箱: https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/clean_fridge.jpg
+- 歪把勺: https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/crooked_spoon.jpg
+- 家具没有尖锐的边角: https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/furniture_edges.jpg
+- 隐藏大门出口: https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/hide_gate_exit.jpg
+- 药品: https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/medicine.jpg
+- 口腔溃疡: https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/mouth_ulcers.jpg
+- 坚果: https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/nut.jpg
+- 防滑地垫、助浴扶手: https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/shower_handrail.jpg
+- 洗澡播放音乐: https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/shower_music.jpg
+- 进食步骤1: https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/takefood1.jpg
+- 进食步骤2：https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/takefood2.jpg
+
+下面是可用视频素材库，请记住每个视频的主题和对应的格式，写内容时自动挑选匹配视频的格式<video src="xxxx.mp4" controls></video>，插入在合适位置。
+素材库：
+- 居家危险环境因素: <video src="https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/dangerous_environment.mp4" controls></video>
+- 不吃饭不喝水: <video src="https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/do_not_eat.mp4" controls></video>
+- 失智老人攻击行为: <video src="https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/encounter_an_attack.mp4" controls></video>
+- 不洗澡: <video src="https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/no_bath.mp4" controls></video>
+- 失智老人噎食: <video src="https://advice-1315324619.cos.ap-beijing.myqcloud.com/pic/stuck_in_the_throat.mp4" controls></video>
+
 请基于以上信息，生成一个面向家属照护者的中文回答。
 
 必须严格使用下面八个一级标题，标题文字不要改：
@@ -359,6 +388,7 @@ def build_user_prompt(context: Dict[str, Any]) -> str:
 - “风险提醒”和“什么时候需要咨询专业人员”要清楚区分：前者提醒家属注意什么，后者说明何时需要找专业人员。
 - 正文不要出现 [S1]、[P1]、[A1]、[E1] 这类引用编号。
 - 正文不要列出具体指南、共识或标准名称。
+- 正文要逐条写出，不要大段文字。
 - “依据来源”部分只写一句：本轮建议基于知识图谱检索到的照护建议和证据生成，具体依据可在回答下方“查看本轮依据与证据”中查看。
 - 最后一节必须明确：本回答用于照护教育支持，不能替代医生、护士、记忆门诊或急诊判断。
 """

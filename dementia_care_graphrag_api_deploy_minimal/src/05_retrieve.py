@@ -447,7 +447,7 @@ def retrieve_graph_from_neo4j(
             a.id AS advice_id,
             a.name AS advice_name,
             a.content_text AS advice_text,
-            elementId(a) AS advice_element_id,
+            id(a) AS advice_element_id,
             properties(a) AS advice_properties,
             [rel IN relationships(path) | type(rel)] AS rel_path,
             [n IN nodes(path) | {
