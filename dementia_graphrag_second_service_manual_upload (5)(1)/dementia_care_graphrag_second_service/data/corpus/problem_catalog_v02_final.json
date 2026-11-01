@@ -1,0 +1,698 @@
+[
+  {
+    "id": "A1",
+    "name": "忘记吃过饭，吃完还想吃",
+    "content": "忘记吃过饭，吃完还想吃",
+    "category": "进食",
+    "properties": {
+      "name": "忘记吃过饭，吃完还想吃",
+      "alias": "",
+      "ptype": "进食",
+      "id": "A1"
+    }
+  },
+  {
+    "id": "A2",
+    "name": "不会选择食物",
+    "content": "不会选择食物",
+    "category": "进食",
+    "properties": {
+      "name": "不会选择食物",
+      "alias": "",
+      "ptype": "进食",
+      "id": "A2"
+    }
+  },
+  {
+    "id": "A3",
+    "name": "不会正确使用餐具",
+    "content": "不会正确使用餐具",
+    "category": "进食",
+    "properties": {
+      "name": "不会正确使用餐具",
+      "alias": "",
+      "ptype": "进食",
+      "id": "A3"
+    }
+  },
+  {
+    "id": "A4",
+    "name": "吃不宜进食的东西",
+    "content": "吃不宜进食的东西",
+    "category": "进食",
+    "properties": {
+      "name": "吃不宜进食的东西",
+      "alias": "",
+      "ptype": "进食",
+      "id": "A4"
+    }
+  },
+  {
+    "id": "A5",
+    "name": "拒绝吃饭，或抗拒进食",
+    "content": "拒绝吃饭，或抗拒进食",
+    "category": "进食",
+    "properties": {
+      "name": "拒绝吃饭，或抗拒进食",
+      "alias": "拒绝吃饭，或抗拒喂食",
+      "ptype": "进食",
+      "id": "A5"
+    }
+  },
+  {
+    "id": "A6",
+    "name": "咀嚼困难",
+    "content": "咀嚼困难",
+    "category": "进食",
+    "properties": {
+      "name": "咀嚼困难",
+      "alias": "",
+      "ptype": "进食",
+      "id": "A6"
+    }
+  },
+  {
+    "id": "A7",
+    "name": "吞咽困难",
+    "content": "吞咽困难",
+    "category": "进食",
+    "properties": {
+      "name": "吞咽困难",
+      "alias": "",
+      "ptype": "进食",
+      "id": "A7"
+    }
+  },
+  {
+    "id": "A8",
+    "name": "经鼻胃管进食",
+    "content": "经鼻胃管进食",
+    "category": "进食",
+    "properties": {
+      "name": "经鼻胃管进食",
+      "alias": "",
+      "ptype": "进食",
+      "id": "A8"
+    }
+  },
+  {
+    "id": "B1",
+    "name": "不能根据季节挑选衣服",
+    "content": "不能根据季节挑选衣服",
+    "category": "穿脱衣服",
+    "properties": {
+      "name": "不能根据季节挑选衣服",
+      "alias": "",
+      "ptype": "穿脱衣服",
+      "id": "B1"
+    }
+  },
+  {
+    "id": "B2",
+    "name": "不会按顺序穿衣服",
+    "content": "不会按顺序穿衣服",
+    "category": "穿脱衣服",
+    "properties": {
+      "name": "不会按顺序穿衣服",
+      "alias": "",
+      "ptype": "穿脱衣服",
+      "id": "B2"
+    }
+  },
+  {
+    "id": "B3",
+    "name": "穿同一件衣服，拒绝替换",
+    "content": "穿同一件衣服，拒绝替换",
+    "category": "穿脱衣服",
+    "properties": {
+      "name": "穿同一件衣服，拒绝替换",
+      "alias": "",
+      "ptype": "穿脱衣服",
+      "id": "B3"
+    }
+  },
+  {
+    "id": "B4",
+    "name": "不恰当地穿脱衣服",
+    "content": "不恰当地穿脱衣服",
+    "category": "穿脱衣服",
+    "properties": {
+      "name": "不恰当地穿脱衣服",
+      "alias": "",
+      "ptype": "穿脱衣服",
+      "id": "B4"
+    }
+  },
+  {
+    "id": "B5",
+    "name": "拒绝穿衣服",
+    "content": "拒绝穿衣服",
+    "category": "穿脱衣服",
+    "properties": {
+      "name": "拒绝穿衣服",
+      "alias": "",
+      "ptype": "穿脱衣服",
+      "id": "B5"
+    }
+  },
+  {
+    "id": "C1",
+    "name": "自己找不到厕所",
+    "content": "自己找不到厕所",
+    "category": "排泄",
+    "properties": {
+      "name": "自己找不到厕所",
+      "alias": "",
+      "ptype": "排泄",
+      "id": "C1"
+    }
+  },
+  {
+    "id": "C2",
+    "name": "不会使用便器",
+    "content": "不会使用便器",
+    "category": "排泄",
+    "properties": {
+      "name": "不会使用便器",
+      "alias": "",
+      "ptype": "排泄",
+      "id": "C2"
+    }
+  },
+  {
+    "id": "C3",
+    "name": "不会便后自我清洁",
+    "content": "不会便后自我清洁",
+    "category": "排泄",
+    "properties": {
+      "name": "不会便后自我清洁",
+      "alias": "",
+      "ptype": "排泄",
+      "id": "C3"
+    }
+  },
+  {
+    "id": "C4",
+    "name": "在不适宜的地方大小便",
+    "content": "在不适宜的地方大小便",
+    "category": "排泄",
+    "properties": {
+      "name": "在不适宜的地方大小便",
+      "alias": "",
+      "ptype": "排泄",
+      "id": "C4"
+    }
+  },
+  {
+    "id": "C5",
+    "name": "小便或大便失禁",
+    "content": "小便或大便失禁",
+    "category": "排泄",
+    "properties": {
+      "name": "小便或大便失禁",
+      "alias": "",
+      "ptype": "排泄",
+      "id": "C5"
+    }
+  },
+  {
+    "id": "C6",
+    "name": "便秘",
+    "content": "便秘",
+    "category": "排泄",
+    "properties": {
+      "name": "便秘",
+      "alias": "",
+      "ptype": "排泄",
+      "id": "C6"
+    }
+  },
+  {
+    "id": "D1",
+    "name": "拒绝洗澡",
+    "content": "拒绝洗澡",
+    "category": "梳洗",
+    "properties": {
+      "name": "拒绝洗澡",
+      "alias": "",
+      "ptype": "梳洗",
+      "id": "D1"
+    }
+  },
+  {
+    "id": "D2",
+    "name": "忘记梳洗或刷牙的步骤",
+    "content": "忘记梳洗或刷牙的步骤",
+    "category": "梳洗",
+    "properties": {
+      "name": "忘记梳洗或刷牙的步骤",
+      "alias": "忘记梳洗或刷牙步骤",
+      "ptype": "梳洗",
+      "id": "D2"
+    }
+  },
+  {
+    "id": "D3",
+    "name": "拒绝梳洗",
+    "content": "拒绝梳洗",
+    "category": "梳洗",
+    "properties": {
+      "name": "拒绝梳洗",
+      "alias": "",
+      "ptype": "梳洗",
+      "id": "D3"
+    }
+  },
+  {
+    "id": "D4",
+    "name": "他人协助洗澡时出现攻击行为",
+    "content": "他人协助洗澡时出现攻击行为",
+    "category": "梳洗",
+    "properties": {
+      "name": "他人协助洗澡时出现攻击行为",
+      "alias": "",
+      "ptype": "梳洗",
+      "id": "D4"
+    }
+  },
+  {
+    "id": "E1",
+    "name": "卧床不起，身体移动需要他人帮助",
+    "content": "卧床不起，身体移动需要他人帮助",
+    "category": "行走",
+    "properties": {
+      "name": "卧床不起，身体移动需要他人帮助",
+      "alias": "",
+      "ptype": "行走",
+      "id": "E1"
+    }
+  },
+  {
+    "id": "F1",
+    "name": "入睡困难",
+    "content": "入睡困难",
+    "category": "睡眠",
+    "properties": {
+      "name": "入睡困难",
+      "alias": "",
+      "ptype": "睡眠",
+      "id": "F1"
+    }
+  },
+  {
+    "id": "F2",
+    "name": "夜间多次起床(大于3次)",
+    "content": "夜间多次起床(大于3次)",
+    "category": "睡眠",
+    "properties": {
+      "name": "夜间多次起床(大于3次)",
+      "alias": "夜间多次起床",
+      "ptype": "睡眠",
+      "id": "F2"
+    }
+  },
+  {
+    "id": "F3",
+    "name": "昼夜颠倒",
+    "content": "昼夜颠倒",
+    "category": "睡眠",
+    "properties": {
+      "name": "昼夜颠倒",
+      "alias": "",
+      "ptype": "睡眠",
+      "id": "F3"
+    }
+  },
+  {
+    "id": "G1",
+    "name": "难以理解别人说话的意思",
+    "content": "难以理解别人说话的意思",
+    "category": "沟通",
+    "properties": {
+      "name": "难以理解别人说话的意思",
+      "alias": "",
+      "ptype": "沟通",
+      "id": "G1"
+    }
+  },
+  {
+    "id": "G2",
+    "name": "难以清楚地表达自己的想法",
+    "content": "难以清楚地表达自己的想法",
+    "category": "沟通",
+    "properties": {
+      "name": "难以清楚地表达自己的想法",
+      "alias": "",
+      "ptype": "沟通",
+      "id": "G2"
+    }
+  },
+  {
+    "id": "G3",
+    "name": "失去语言沟通能力，只能重复简单的词",
+    "content": "失去语言沟通能力，只能重复简单的词",
+    "category": "沟通",
+    "properties": {
+      "name": "失去语言沟通能力，只能重复简单的词",
+      "alias": "",
+      "ptype": "沟通",
+      "id": "G3"
+    }
+  },
+  {
+    "id": "H1",
+    "name": "诅咒、骂人",
+    "content": "诅咒、骂人",
+    "category": "精神行为",
+    "properties": {
+      "name": "诅咒、骂人",
+      "alias": "",
+      "ptype": "精神行为",
+      "id": "H1"
+    }
+  },
+  {
+    "id": "H10",
+    "name": "抱怨、发牢骚",
+    "content": "抱怨、发牢骚",
+    "category": "精神行为",
+    "properties": {
+      "name": "抱怨、发牢骚",
+      "alias": "",
+      "ptype": "精神行为",
+      "id": "H10"
+    }
+  },
+  {
+    "id": "H11",
+    "name": "发出奇怪的笑声或哭声",
+    "content": "发出奇怪的笑声或哭声",
+    "category": "精神行为",
+    "properties": {
+      "name": "发出奇怪的笑声或哭声",
+      "alias": "",
+      "ptype": "精神行为",
+      "id": "H11"
+    }
+  },
+  {
+    "id": "H12",
+    "name": "尖叫--大声高调地喊叫、吼叫",
+    "content": "尖叫--大声高调地喊叫、吼叫",
+    "category": "精神行为",
+    "properties": {
+      "name": "尖叫--大声高调地喊叫、吼叫",
+      "alias": "尖叫",
+      "ptype": "精神行为",
+      "id": "H12"
+    }
+  },
+  {
+    "id": "H13",
+    "name": "幻觉--如幻听、幻视",
+    "content": "幻觉--如幻听、幻视",
+    "category": "精神行为",
+    "properties": {
+      "name": "幻觉--如幻听、幻视",
+      "alias": "幻觉",
+      "ptype": "精神行为",
+      "id": "H13"
+    }
+  },
+  {
+    "id": "H14",
+    "name": "妄想--怀疑老伴儿有外遇、被窃妄想、被害妄想",
+    "content": "妄想--怀疑老伴儿有外遇、被窃妄想、被害妄想",
+    "category": "精神行为",
+    "properties": {
+      "name": "妄想--怀疑老伴儿有外遇、被窃妄想、被害妄想",
+      "alias": "妄想",
+      "ptype": "精神行为",
+      "id": "H14"
+    }
+  },
+  {
+    "id": "H15",
+    "name": "淡漠--置身于社交环境之外，或对之表示冷漠",
+    "content": "淡漠--置身于社交环境之外，或对之表示冷漠",
+    "category": "精神行为",
+    "properties": {
+      "name": "淡漠--置身于社交环境之外，或对之表示冷漠",
+      "alias": "淡漠",
+      "ptype": "精神行为",
+      "id": "H15"
+    }
+  },
+  {
+    "id": "H2",
+    "name": "打、踢、推、咬人",
+    "content": "打、踢、推、咬人",
+    "category": "精神行为",
+    "properties": {
+      "name": "打、踢、推、咬人",
+      "alias": "",
+      "ptype": "精神行为",
+      "id": "H2"
+    }
+  },
+  {
+    "id": "H3",
+    "name": "扔东西、撕东西、破坏物品",
+    "content": "扔东西、撕东西、破坏物品",
+    "category": "精神行为",
+    "properties": {
+      "name": "扔东西、撕东西、破坏物品",
+      "alias": "",
+      "ptype": "精神行为",
+      "id": "H3"
+    }
+  },
+  {
+    "id": "H4",
+    "name": "说与性有关的话、有性骚扰行为",
+    "content": "说与性有关的话、有性骚扰行为",
+    "category": "精神行为",
+    "properties": {
+      "name": "说与性有关的话、有性骚扰行为",
+      "alias": "",
+      "ptype": "精神行为",
+      "id": "H4"
+    }
+  },
+  {
+    "id": "H5",
+    "name": "徘徊和游荡--无目的地持续来回走动，或试图走到其他地方，如走出楼外、溜出房间、进入他人房间等",
+    "content": "徘徊和游荡--无目的地持续来回走动，或试图走到其他地方，如走出楼外、溜出房间、进入他人房间等",
+    "category": "精神行为",
+    "properties": {
+      "name": "徘徊和游荡--无目的地持续来回走动，或试图走到其他地方，如走出楼外、溜出房间、进入他人房间等",
+      "alias": "徘徊和游荡",
+      "ptype": "精神行为",
+      "id": "H5"
+    }
+  },
+  {
+    "id": "H6",
+    "name": "重复动作--拍打、敲击、揉搓、吮手指、穿脱鞋子等",
+    "content": "重复动作--拍打、敲击、揉搓、吮手指、穿脱鞋子等",
+    "category": "精神行为",
+    "properties": {
+      "name": "重复动作--拍打、敲击、揉搓、吮手指、穿脱鞋子等",
+      "alias": "重复动作",
+      "ptype": "精神行为",
+      "id": "H6"
+    }
+  },
+  {
+    "id": "H7",
+    "name": "重复说或问同一个问题",
+    "content": "重复说或问同一个问题",
+    "category": "精神行为",
+    "properties": {
+      "name": "重复说或问同一个问题",
+      "alias": "",
+      "ptype": "精神行为",
+      "id": "H7"
+    }
+  },
+  {
+    "id": "H8",
+    "name": "藏东西、储藏无价值的物品",
+    "content": "藏东西、储藏无价值的物品",
+    "category": "精神行为",
+    "properties": {
+      "name": "藏东西、储藏无价值的物品",
+      "alias": "藏东西、储存无价值的物品",
+      "ptype": "精神行为",
+      "id": "H8"
+    }
+  },
+  {
+    "id": "H9",
+    "name": "持续要求帮助或引人注意",
+    "content": "持续要求帮助或引人注意",
+    "category": "精神行为",
+    "properties": {
+      "name": "持续要求帮助或引人注意",
+      "alias": "",
+      "ptype": "精神行为",
+      "id": "H9"
+    }
+  },
+  {
+    "id": "I1",
+    "name": "跌倒",
+    "content": "跌倒",
+    "category": "安全风险",
+    "properties": {
+      "name": "跌倒",
+      "alias": "",
+      "ptype": "安全风险",
+      "id": "I1"
+    }
+  },
+  {
+    "id": "I10",
+    "name": "噎食",
+    "content": "噎食",
+    "category": "安全风险",
+    "properties": {
+      "name": "噎食",
+      "alias": "",
+      "ptype": "安全风险",
+      "id": "I10"
+    }
+  },
+  {
+    "id": "I11",
+    "name": "肺炎",
+    "content": "肺炎",
+    "category": "安全风险",
+    "properties": {
+      "name": "肺炎",
+      "alias": "",
+      "ptype": "安全风险",
+      "id": "I11"
+    }
+  },
+  {
+    "id": "I12",
+    "name": "感染",
+    "content": "感染",
+    "category": "安全风险",
+    "properties": {
+      "name": "感染",
+      "alias": "",
+      "ptype": "安全风险",
+      "id": "I12"
+    }
+  },
+  {
+    "id": "I13",
+    "name": "压疮",
+    "content": "压疮",
+    "category": "安全风险",
+    "properties": {
+      "name": "压疮",
+      "alias": "",
+      "ptype": "安全风险",
+      "id": "I13"
+    }
+  },
+  {
+    "id": "I2",
+    "name": "坠床",
+    "content": "坠床",
+    "category": "安全风险",
+    "properties": {
+      "name": "坠床",
+      "alias": "",
+      "ptype": "安全风险",
+      "id": "I2"
+    }
+  },
+  {
+    "id": "I3",
+    "name": "自伤",
+    "content": "自伤",
+    "category": "安全风险",
+    "properties": {
+      "name": "自伤",
+      "alias": "",
+      "ptype": "安全风险",
+      "id": "I3"
+    }
+  },
+  {
+    "id": "I4",
+    "name": "伤人",
+    "content": "伤人",
+    "category": "安全风险",
+    "properties": {
+      "name": "伤人",
+      "alias": "",
+      "ptype": "安全风险",
+      "id": "I4"
+    }
+  },
+  {
+    "id": "I5",
+    "name": "外跑",
+    "content": "外跑",
+    "category": "安全风险",
+    "properties": {
+      "name": "外跑",
+      "alias": "",
+      "ptype": "安全风险",
+      "id": "I5"
+    }
+  },
+  {
+    "id": "I6",
+    "name": "走失",
+    "content": "走失",
+    "category": "安全风险",
+    "properties": {
+      "name": "走失",
+      "alias": "",
+      "ptype": "安全风险",
+      "id": "I6"
+    }
+  },
+  {
+    "id": "I7",
+    "name": "误吸",
+    "content": "误吸",
+    "category": "安全风险",
+    "properties": {
+      "name": "误吸",
+      "alias": "",
+      "ptype": "安全风险",
+      "id": "I7"
+    }
+  },
+  {
+    "id": "I8",
+    "name": "误服危险物品",
+    "content": "误服危险物品",
+    "category": "安全风险",
+    "properties": {
+      "name": "误服危险物品",
+      "alias": "误服",
+      "ptype": "安全风险",
+      "id": "I8"
+    }
+  },
+  {
+    "id": "I9",
+    "name": "呛咳",
+    "content": "呛咳",
+    "category": "安全风险",
+    "properties": {
+      "name": "呛咳",
+      "alias": "",
+      "ptype": "安全风险",
+      "id": "I9"
+    }
+  }
+]

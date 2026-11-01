@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-06-24T15:08:05",
+  "project": "dementia_care_graphrag_workflow_v01",
+  "kg_version": "v02_final",
+  "embedding_model": "BAAI/bge-m3",
+  "batch_size": 16,
+  "faiss_index_type": "FlatIP",
+  "inputs": {
+    "advice_corpus_path": "data/corpus/kg_advice_corpus.jsonl",
+    "problem_catalog_path": "data/corpus/problem_catalog_v02_final.json"
+  },
+  "advice_index": {
+    "name": "Advice",
+    "doc_count": 493,
+    "embedding_shape": [
+      493,
+      1024
+    ],
+    "embedding_dtype": "float32",
+    "embedding_norm_min": 0.9999998807907104,
+    "embedding_norm_max": 1.0,
+    "embedding_norm_mean": 1.0,
+    "faiss_index_type": "FlatIP",
+    "faiss_ntotal": 493,
+    "faiss_path": "outputs/indexes/advice_bgem3_flatip.faiss",
+    "embeddings_path": "outputs/indexes/advice_bgem3_embeddings.npy",
+    "meta_path": "outputs/indexes/advice_bgem3_meta.jsonl"
+  },
+  "problem_index": {
+    "name": "Problem",
+    "doc_count": 58,
+    "embedding_shape": [
+      58,
+      1024
+    ],
+    "embedding_dtype": "float32",
+    "embedding_norm_min": 0.9999998807907104,
+    "embedding_norm_max": 1.0,
+    "embedding_norm_mean": 1.0,
+    "faiss_index_type": "FlatIP",
+    "faiss_ntotal": 58,
+    "faiss_path": "outputs/indexes/problem_bgem3_flatip.faiss",
+    "embeddings_path": "outputs/indexes/problem_bgem3_embeddings.npy",
+    "meta_path": "outputs/indexes/problem_bgem3_meta.jsonl"
+  },
+  "advice_doc_count_by_label": {
+    "ProblemAdvice": 396,
+    "ActivityAdvice": 52,
+    "EnvironmentAdvice": 45
+  },
+  "advice_with_evidence_text_count": 120,
+  "advice_with_source_title_count": 120,
+  "expected_counts": {
+    "problem_count": 58,
+    "advice_doc_count": 493,
+    "problem_advice": 396,
+    "activity_advice": 52,
+    "environment_advice": 45
+  }
+}

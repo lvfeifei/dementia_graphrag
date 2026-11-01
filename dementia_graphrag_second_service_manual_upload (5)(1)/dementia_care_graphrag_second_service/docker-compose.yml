@@ -1,0 +1,35 @@
+services:
+  graphrag-second:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: dementia-care-graphrag-second:latest
+    container_name: dementia-care-graphrag-second
+    restart: unless-stopped
+    ports:
+      - "${GRAPH_RAG_PORT:-8010}:8000"
+    env_file:
+      - path: .env
+        required: true
+    environment:
+      NEO4J_URI: ${NEO4J_URI}
+      NEO4J_USER: ${NEO4J_USER}
+      NEO4J_LOCAL_PASSWORD: ${NEO4J_LOCAL_PASSWORD}
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY}
+      DEEPSEEK_BASE_URL: ${DEEPSEEK_BASE_URL:-https://api.deepseek.com}
+      DEEPSEEK_MODEL: ${DEEPSEEK_MODEL:-deepseek-chat}
+      DEEPSEEK_TIMEOUT: ${DEEPSEEK_TIMEOUT:-60}
+      DEEPSEEK_MAX_RETRIES: ${DEEPSEEK_MAX_RETRIES:-3}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-BAAI/bge-m3}
+      EMBEDDING_BATCH_SIZE: ${EMBEDDING_BATCH_SIZE:-16}
+      FAISS_INDEX_TYPE: ${FAISS_INDEX_TYPE:-FlatIP}
+      API_AUTH_TOKEN: ${API_AUTH_TOKEN:-}
+      API_CORS_ORIGINS: ${API_CORS_ORIGINS:-*}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - graphrag-outputs:/app/outputs
+
+volumes:
+  graphrag-outputs:
+    name: dementia-care-graphrag-second-outputs

@@ -1,0 +1,16 @@
+[Unit]
+Description=Dementia Care GraphRAG Second Instance
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/graphrag_second_service
+ExecStart=/root/miniconda3/envs/dementia_graphrag_api/bin/uvicorn api_server:app --host 0.0.0.0 --port 8010
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+StandardOutput=append:/root/graphrag_second_service/outputs/logs/service_8010.log
+StandardError=append:/root/graphrag_second_service/outputs/logs/service_8010.log
+
+[Install]
+WantedBy=multi-user.target

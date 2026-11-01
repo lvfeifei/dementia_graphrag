@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>失智照护 GraphRAG 助手</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">护</div>
+        <div>
+          <h1>失智照护 GraphRAG 助手</h1>
+          <p>基于知识图谱与照护语料生成建议</p>
+        </div>
+      </div>
+      <button id="resetBtn" class="ghost-btn" type="button">新会话</button>
+    </header>
+
+    <main class="chat-shell">
+      <div id="chatThread" class="chat-thread">
+        <section class="message assistant">
+          <div class="avatar">AI</div>
+          <div class="bubble">
+            <div class="content markdown-body">
+              <p>你好，我是失智照护助手。可以描述老人最近出现的照护问题，例如夜间起床、怀疑被偷东西、拒绝洗澡、外跑、进食呛咳等。</p>
+              <p>回答仅供照护教育和风险识别参考，不能替代医生、护士或记忆门诊的专业评估。</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="composer-wrap">
+      <div class="composer">
+        <textarea id="questionInput" rows="1" placeholder="请描述具体情况，例如：奶奶晚上总起来，还说有人偷她的钱，怎么办？"></textarea>
+        <button id="sendBtn" class="send-btn" type="button" aria-label="发送">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3.4 20.4 21 12 3.4 3.6 3 10l12 2-12 2z"></path>
+          </svg>
+        </button>
+      </div>
+      <p class="composer-hint">Enter 发送，Shift + Enter 换行</p>
+    </footer>
+  </div>
+
+  <script src="/assets/app.js"></script>
+</body>
+</html>
